@@ -13,7 +13,7 @@ export const command = {
         })  
        .addUserOption(option => {
            option.setName('user')
-           .setDescription('the user whom the role will be assigned')
+           .setDescription('the user who will be assigned to the role')
            .setRequired(true)
         return option
        }),
